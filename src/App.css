@@ -76,7 +76,9 @@ article p {
   font-family: var(--f-bolder);
   border-radius: 2rem;
   margin-top: auto;
+  cursor: pointer;
 }
+
 article:nth-child(1) .more-button {
   color: var(--brightOrange);
 }
@@ -85,6 +87,11 @@ article:nth-child(2) .more-button {
 }
 article:nth-child(3) .more-button {
   color: var(--veryDarkCyan);
+}
+.more-button:hover {
+  background-color: transparent;
+  border: white 2px solid;
+  color: white !important;
 }
 
 @media (max-width: 600px) {
